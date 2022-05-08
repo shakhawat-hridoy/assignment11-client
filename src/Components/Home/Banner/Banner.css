@@ -5,7 +5,7 @@
 #carousel-item-1
 {
     
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("https://cdn.pixabay.com/photo/2016/04/15/08/04/strawberry-1330459_960_720.jpg") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("https://cdn.pixabay.com/photo/2020/06/21/15/26/perfume-5325434__340.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -17,7 +17,7 @@
 #carousel-item-2
 {
     
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("https://images.unsplash.com/photo-1619566636858-adf3ef46400b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 ") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("https://cdn.pixabay.com/photo/2017/03/08/13/26/attar-2126745__340.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -28,7 +28,7 @@
 #carousel-item-3
 {
 
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("https://cdn.pixabay.com/photo/2017/01/20/15/12/oranges-1995079_960_720.jpg") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("https://cdn.pixabay.com/photo/2017/03/14/11/41/perfume-2142824__340.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -36,16 +36,6 @@
     /*  */
 }
 
-
-#carousel-item-4
-{
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("https://cdn.pixabay.com/photo/2021/09/17/15/17/fruit-6633086_960_720.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    height: 100vh;
-/*  */
-}
 
 .carousel-caption h1
 {

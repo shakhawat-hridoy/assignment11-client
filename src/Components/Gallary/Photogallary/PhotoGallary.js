@@ -1,24 +1,40 @@
-import React from 'react';
+import React from "react";
 
 const PhotoGallary = () => {
-    return (
-        <section>
-            <div className="row g-0">
-                <div className="col-md-4 col-12">
-                    <img src="https://images.unsplash.com/photo-1519996529931-28324d5a630e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnJ1aXRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" className="img-fluid h-100" />
-                </div>
-                <div className="col-md-8 col-12">
-                    <img src="https://cdn.pixabay.com/photo/2017/11/04/19/05/christmas-2918569_960_720.jpg" alt="" className="img-fluid h-100" />
-                </div>
-                <div className="col-md-8 col-12">
-                    <img src="https://cdn.pixabay.com/photo/2016/01/02/01/59/oranges-1117628_960_720.jpg" alt="" className="img-fluid h-100" />
-                </div>
-                <div className="col-md-4 col-12">
-                    <img src="https://images.unsplash.com/photo-1596591606975-97ee5cef3a1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGZydWl0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" className="img-fluid h-100" />
-                </div>
-            </div>
-        </section>
-    );
+  return (
+    <section>
+      <div className="row g-0">
+        <div className="col-md-4 col-12">
+          <img
+            src="https://images.unsplash.com/photo-1535683577427-740aaac4ec25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVyZnVtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+            alt=""
+            className="img-fluid h-100"
+          />
+        </div>
+        <div className="col-md-8 col-12">
+          <img
+            src="https://images.unsplash.com/photo-1595535373192-fc8935bacd89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGVyZnVtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60"
+            alt=""
+            className="img-fluid h-100"
+          />
+        </div>
+        <div className="col-md-8 col-12">
+          <img
+            src="https://images.unsplash.com/photo-1595425959632-34f2822322ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBlcmZ1bWV8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+            alt=""
+            className="img-fluid h-100"
+          />
+        </div>
+        <div className="col-md-4 col-12">
+          <img
+            src="https://images.unsplash.com/photo-1557170334-a9632e77c6e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyZnVtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60"
+            alt=""
+            className="img-fluid h-100"
+          />
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default PhotoGallary;
