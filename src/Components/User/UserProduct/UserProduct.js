@@ -6,8 +6,8 @@ import auth from "../../../firebase.init";
 import "./UserProduct.css";
 
 const UserProduct = (props) => {
-  const { fruit } = props;
-  const { _id, name, img, description, Quantity, supplier, price } = fruit;
+  const { perfume } = props;
+  const { _id, name, img, description, Quantity, supplier, price } = perfume;
 
   const navigate = useNavigate();
 
@@ -58,7 +58,7 @@ const UserProduct = (props) => {
                 <Button
                   variant="danger"
                   className="delete-btn"
-                  onClick={() => handleDelete(fruit._id)}
+                  onClick={() => handleDelete(perfume._id)}
                 >
                   Delete
                 </Button>

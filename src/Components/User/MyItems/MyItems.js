@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../../../firebase.init";
-// import GetFruits from "../../../Hooks/GetFruits";
 import GetPerfume from "../../../Hooks/getPerfume";
 import Loading from "../../Loading/Loading";
-import Fruit from "../../Products/Fruit/Fruit";
 import UserProduct from "../UserProduct/UserProduct";
 const MyItems = () => {
   const [currentUser, error, loading] = useAuthState(auth);
@@ -40,7 +38,7 @@ const MyItems = () => {
 
           <div className="row row-cols-1 row-cols-md-2 g-5">
             {userItems.map((item) => (
-              <UserProduct key={item._id} fruit={item}></UserProduct>
+              <UserProduct key={item._id} perfume={item}></UserProduct>
             ))}
           </div>
         </div>

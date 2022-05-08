@@ -8,8 +8,7 @@ const Quotes = () => {
   return (
     <div className="mar-20 ">
       <div className="text-center py-4 my-5">
-        <p>Our Client's</p>
-        <h3>Quotes</h3>
+        <h3>See what our clients say</h3>
       </div>
 
       <div className="qoute-cards">

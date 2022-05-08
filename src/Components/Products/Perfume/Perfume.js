@@ -2,9 +2,9 @@ import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useNavigate } from "react-router-dom";
 import auth from "../../../firebase.init";
-import "./Fruit.css";
-const Fruit = (props) => {
-  const { fruit } = props;
+import "./Perfume.css";
+const Perfume = (props) => {
+  const { perfume } = props;
   const {
     _id,
     name,
@@ -14,7 +14,7 @@ const Fruit = (props) => {
     supplier_name,
     supplier,
     price,
-  } = fruit;
+  } = perfume;
 
   const navigate = useNavigate();
 
@@ -49,4 +49,4 @@ const Fruit = (props) => {
   );
 };
 
-export default Fruit;
+export default Perfume;
