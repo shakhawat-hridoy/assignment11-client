@@ -17,9 +17,6 @@ const Quotes = () => {
           <Carousel.Item className="p-5">
             <CardGroup1></CardGroup1>
           </Carousel.Item>
-          {/* <Carousel.Item className='p-5'>
-                        <CardGroup2></CardGroup2>
-                    </Carousel.Item> */}
         </Carousel>
       </div>
     </div>
