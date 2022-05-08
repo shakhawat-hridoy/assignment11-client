@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-// import GetFruits from "../../../Hooks/GetFruits";
 import GetPerfume from "../../../Hooks/getPerfume";
 import Product from "../Product/Product";
 import "./Warehouse.css";

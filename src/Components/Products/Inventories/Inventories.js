@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import GetFruits from "../../../Hooks/GetFruits";
 import GetPerfume from "../../../Hooks/getPerfume";
 import Loading from "../../Loading/Loading";
 import Fruit from "../Fruit/Fruit";

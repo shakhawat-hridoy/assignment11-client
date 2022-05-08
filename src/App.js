@@ -10,7 +10,7 @@ import AddProduct from "./Components/Management/AddProducts/AddProduct";
 import Management from "./Components/Management/Management/Management";
 import NotFound from "./Components/NotFound/NotFound ";
 // import PerfumeDetailes from "./Components/Products/FruitsDetails/PerfumeDetailes/PerfumeDetails";
-import PerfumeDetailes from "./Components/Products/PerfumesDetails/PerfumeDetails/PerfumeDetails";
+import PerfumeDetailes from "./Components/Products/FruitsDetails/PerfumesDetails/PerfumeDetails/PerfumeDetails";
 import Register from "./Components/Register/Register";
 import RequireAuth from "./Components/RequireAuth/RequireAuth";
 import MyItems from "./Components/User/MyItems/MyItems";

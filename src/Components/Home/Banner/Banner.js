@@ -12,7 +12,7 @@ const Banner = () => {
             className="top-50 position-absolute"
           >
             <h1 className="display-2">Perfumo</h1>
-            <p>skdhfiekujhdf </p>
+            <p>The wait is over </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item id="carousel-item-2">
@@ -20,8 +20,8 @@ const Banner = () => {
             data-aos="fade-up"
             className="top-50 position-absolute"
           >
-            <h1 className="display-2">Fruity</h1>
-            <p>Fresh an testy fruits in town.</p>
+            <h1 className="display-2">Perfumo</h1>
+            <p>Fresh and genuine fragrance in town.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item id="carousel-item-3">
@@ -29,8 +29,8 @@ const Banner = () => {
             data-aos="fade-up"
             className="top-50 position-absolute"
           >
-            <h1 className="display-2">Fruity</h1>
-            <p>Keep yor body healthy with our organic fruits</p>
+            <h1 className="display-2">Perfumo</h1>
+            <p>Keep yor sorrounding fresh</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

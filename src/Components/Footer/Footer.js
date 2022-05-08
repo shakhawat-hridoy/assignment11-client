@@ -7,16 +7,28 @@ const Footer = () => {
   const year = date.getFullYear();
   return (
     <section>
-      <footer className="p-5">
-        <div className="container d-flex justify-content-between">
+      <footer className="px-2 py-4">
+        <div className="container d-flex   flex-sm-column flex-md-row flex-lg-row justify-content-lg-between">
           <div>
-            <h3>Copyright &copy; {year}</h3>
-            <h3>To Shakhawat</h3>
+            <h6>&copy; Mr. Shakhawat reserves all its right.</h6>
+            <h6>Perfumo {year}</h6>
           </div>
 
-          <div>
-            <h4>Contact us</h4>
-            <p>Panthapath , Dhaka-1205</p>
+          <div className="mt-sm-3 mt-md-0 ms-md-auto mt-lg-0">
+            <h6>Contact us</h6>
+            <p>
+              <small>Panthapath , Dhaka-1205</small>
+              <br />
+              <span>
+                <small>
+                  <b>Phone: </b>999999999
+                </small>
+                <br />
+                <small>
+                  <b>email:</b> emailadress@mail.com
+                </small>
+              </span>
+            </p>
           </div>
         </div>
       </footer>

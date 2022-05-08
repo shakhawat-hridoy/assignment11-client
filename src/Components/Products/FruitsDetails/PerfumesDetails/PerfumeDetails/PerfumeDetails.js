@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import AddQuantity from "../../FruitsDetails/AddQuantity/AddQuantity";
-import ProductDetailesTable from "../../FruitsDetails/ProductDetailsTable/ProductDetailesTable";
+import AddQuantity from "../../AddQuantity/AddQuantity";
+import ProductDetailesTable from "../../ProductDetailsTable/ProductDetailesTable";
 import "./PerfumeDetails.css";
 
 const PerfumeDetailes = () => {
